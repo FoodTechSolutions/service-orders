@@ -1,6 +1,7 @@
 ﻿using DOMAIN.Base;
 using INFRA.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace INFRA.Repositories.Common;
 
@@ -15,8 +16,8 @@ public class Repository<T> : IRepository<T> where T : AggregateRoot
         _dbSet = context.Set<T>();
     }
 
-    public async Task<IEnumerable<T>> GetAllAsync()
-        => await _dbSet.AsNoTracking().ToListAsync();
+    public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null)
+        => await _dbSet.Where(predicate).AsNoTracking().ToListAsync();
 
     public async Task AddAsync(T entity)
         => await _dbSet.AddAsync(entity);

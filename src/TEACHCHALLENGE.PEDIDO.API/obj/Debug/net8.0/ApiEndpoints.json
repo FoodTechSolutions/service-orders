@@ -30,5 +30,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/v1/Order/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.OrderController",
+    "Method": "GetOrdersGroupByStatusAsync",
+    "RelativePath": "api/v1/Order/GetOrdersGroupByStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

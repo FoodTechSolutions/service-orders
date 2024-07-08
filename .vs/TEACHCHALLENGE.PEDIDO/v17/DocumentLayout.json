@@ -1,141 +1,148 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\",
+  "WorkspaceRootPath": "D:\\service-orders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240707212558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\tests\\application\\builder\\orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|solutionrelative:tests\\application\\builder\\orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\tests\\application\\fixture\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|solutionrelative:tests\\application\\fixture\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\tests\\application\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION.csproj|solutionrelative:tests\\application\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\migrations\\20240707212558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\migrations\\20240707212558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240707212155_testee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\createorder\\createorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\requets\\order\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\requets\\order\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\requets\\order\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\entities\\orderproductingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\entities\\orderproductingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\entities\\orderproductingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240707210608_testeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\base\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\base\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\base\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\repositories\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\repositories\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\repositories\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240707205559_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\getorder\\getorderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\getorder\\getorderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\getorder\\getorderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\getorder\\getorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\getorder\\getorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\getorder\\getorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\order\\getorder\\getorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\getorder\\getorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\getorder\\getorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\base\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\base\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\base\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\infra\\infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|d:\\service-orders\\src\\infra\\infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D9D0600B-354F-467D-A5F1-5D01D715DBF3}|src\\INFRA\\INFRA.csproj|solutionrelative:src\\infra\\infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\teachchallenge.pedido.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|d:\\service-orders\\src\\teachchallenge.pedido.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3AB69C20-E5DC-45D3-96FA-EF638DC7F9A7}|src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj|solutionrelative:src\\teachchallenge.pedido.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240705231806_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\INFRA\\Migrations\\20240705230833_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\projetos\\teachchallenge.pedido\\teachchallenge.pedido\\src\\domain\\base\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\base\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\base\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -159,10 +166,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderBuilder.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\builder\\OrderBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\builder\\OrderBuilder.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\builder\\OrderBuilder.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\builder\\OrderBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:04:14.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseFixture.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:04:11.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\UnitTest1.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T20:04:08.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20240707212558_initial.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212558_initial.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Migrations\\20240707212558_initial.cs",
               "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240707212558_initial.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212558_initial.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Migrations\\20240707212558_initial.cs",
               "RelativeToolTip": "src\\INFRA\\Migrations\\20240707212558_initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,310 +217,287 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "20240707212155_testee.cs",
               "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240707212155_testee.cs",
+              "RelativeDocumentMoniker": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs",
               "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs",
-              "RelativeToolTip": "src\\INFRA\\Migrations\\20240707212155_testee.cs",
+              "RelativeToolTip": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707212155_testee.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T21:21:55.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderProductIngredient.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T21:10:04.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateOrderCommandHandler.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T18:13:36.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderContext.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Context\\OrderContext.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Context\\OrderContext.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Context\\OrderContext.cs",
-              "RelativeToolTip": "src\\INFRA\\Context\\OrderContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:59:24.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderProduct.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Entities\\OrderProduct.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProduct.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Entities\\OrderProduct.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T20:01:55.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateOrderRequest.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
-              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
-              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA4wBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:09:36.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateOrderResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T18:13:05.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:48:10.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
-              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:42:25.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetOrderRequest.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
-              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
-              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T00:03:08.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AggregateRoot.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\AggregateRoot.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\AggregateRoot.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\AggregateRoot.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Base\\AggregateRoot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T00:15:48.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\Common\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\Common\\Repository.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\Common\\Repository.cs",
-              "RelativeToolTip": "src\\INFRA\\Repositories\\Common\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T00:10:21.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\Common\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\Common\\IRepository.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\Common\\IRepository.cs",
-              "RelativeToolTip": "src\\INFRA\\Repositories\\Common\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T00:09:31.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
-              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-05T23:09:02.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GetOrderQueryHandler.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:57:59.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T21:21:55.2Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Order.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Order.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Order.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Order.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAjwA8AAAA5AAAA",
+              "Title": "OrderProductIngredient.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:39:48.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T21:10:04.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:13:36.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderContext.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Context\\OrderContext.cs",
+              "RelativeDocumentMoniker": "src\\INFRA\\Context\\OrderContext.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Context\\OrderContext.cs",
+              "RelativeToolTip": "src\\INFRA\\Context\\OrderContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:59:24.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:01:55.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
+              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\CreateOrderRequest.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA4wBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:09:36.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderResponse.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:13:05.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T23:48:10.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
+              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:42:25.006Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20240707210608_testeee.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240707210608_testeee.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
-              "RelativeToolTip": "src\\INFRA\\Migrations\\20240707210608_testeee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "GetOrderRequest.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
+              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
+              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\Requets\\Order\\GetOrderRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T21:06:08.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:03:08.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "20240707205559_initial.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240707205559_initial.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
-              "RelativeToolTip": "src\\INFRA\\Migrations\\20240707205559_initial.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwDIAAAA7AAAA",
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Base\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\AggregateRoot.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Base\\AggregateRoot.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Base\\AggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T20:55:59.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:15:48.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Repositories\\Common\\Repository.cs",
+              "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\Common\\Repository.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Repositories\\Common\\Repository.cs",
+              "RelativeToolTip": "src\\INFRA\\Repositories\\Common\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T00:10:21.514Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "CreateOrderCommand.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Repositories\\Common\\IRepository.cs",
+              "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\Common\\IRepository.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Repositories\\Common\\IRepository.cs",
+              "RelativeToolTip": "src\\INFRA\\Repositories\\Common\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T18:10:29.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:09:31.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetOrderQuery.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:55:43.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GetOrderResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:57:33.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\BaseEntity.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Base\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:56:34.526Z",
-              "EditorCaption": ""
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
+              "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-05T23:09:02.152Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "APPLICATION.csproj",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\APPLICATION.csproj",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\APPLICATION.csproj",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\APPLICATION\\APPLICATION.csproj",
-              "RelativeToolTip": "src\\APPLICATION\\APPLICATION.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T22:46:12.471Z",
-              "EditorCaption": ""
+              "Title": "GetOrderQueryHandler.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T23:57:59.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Order.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Order.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Order.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAjwA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:39:48.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240707210608_testeee.cs",
+              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
+              "RelativeDocumentMoniker": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
+              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
+              "RelativeToolTip": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707210608_testeee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:06:08.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240707205559_initial.cs",
+              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
+              "RelativeDocumentMoniker": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
+              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
+              "RelativeToolTip": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240707205559_initial.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:55:59.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:10:29.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetOrderQuery.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T23:55:43.469Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "GetOrderResponse.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrder\\GetOrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T23:57:33.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\BaseEntity.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Base\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:56:34.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "APPLICATION.csproj",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\APPLICATION.csproj",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\APPLICATION.csproj",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\APPLICATION.csproj",
+              "RelativeToolTip": "src\\APPLICATION\\APPLICATION.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T22:46:12.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\IOrderRepository.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\IOrderRepository.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Repositories\\IOrderRepository.cs",
               "RelativeToolTip": "src\\INFRA\\Repositories\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -482,11 +505,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "OrderStatus.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "src\\DOMAIN\\Enums\\OrderStatus.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
               "RelativeToolTip": "src\\DOMAIN\\Enums\\OrderStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -494,11 +517,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ValueObject.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\ValueObject.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Base\\ValueObject.cs",
               "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\ValueObject.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\ValueObject.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Base\\ValueObject.cs",
               "RelativeToolTip": "src\\DOMAIN\\Base\\ValueObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -506,11 +529,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\OrderRepository.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "src\\INFRA\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "src\\INFRA\\Repositories\\OrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -518,11 +541,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "API.csproj",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
               "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
               "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -530,11 +553,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "INFRA.csproj",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\INFRA.csproj",
+              "DocumentMoniker": "D:\\service-orders\\src\\INFRA\\INFRA.csproj",
               "RelativeDocumentMoniker": "src\\INFRA\\INFRA.csproj",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\INFRA.csproj",
+              "ToolTip": "D:\\service-orders\\src\\INFRA\\INFRA.csproj",
               "RelativeToolTip": "src\\INFRA\\INFRA.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -542,11 +565,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
+              "ToolTip": "D:\\service-orders\\src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
               "RelativeToolTip": "src\\TEACHCHALLENGE.PEDIDO.API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -554,33 +577,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "20240705231806_initial.cs",
               "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240705231806_initial.cs",
+              "RelativeDocumentMoniker": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs",
               "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs",
-              "RelativeToolTip": "src\\INFRA\\Migrations\\20240705231806_initial.cs",
+              "RelativeToolTip": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705231806_initial.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T23:18:06.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "20240705230833_initial.cs",
               "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs",
-              "RelativeDocumentMoniker": "src\\INFRA\\Migrations\\20240705230833_initial.cs",
+              "RelativeDocumentMoniker": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs",
               "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs",
-              "RelativeToolTip": "src\\INFRA\\Migrations\\20240705230833_initial.cs",
+              "RelativeToolTip": "..\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\Migrations\\20240705230833_initial.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T23:08:33.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "AssertionConcern.cs",
-              "DocumentMoniker": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\AssertionConcern.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Base\\AssertionConcern.cs",
               "RelativeDocumentMoniker": "src\\DOMAIN\\Base\\AssertionConcern.cs",
-              "ToolTip": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\DOMAIN\\Base\\AssertionConcern.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Base\\AssertionConcern.cs",
               "RelativeToolTip": "src\\DOMAIN\\Base\\AssertionConcern.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIBJwA4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

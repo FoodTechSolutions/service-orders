@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8m6E2xNc9Nl7ltli7kmte1FbEJu22lvDFgoXt4nFTtuAJXmH1CU1KMn9gVaQ5zocphKKmGjUk+zFZxyjs3rQpQ==",
+  "dgSpecHash": "3lVh3VUOYNBsJsMA0OwUoC2PqE2tLkAeIypW2S3ok62LXGfRq7hR0gUTkNThpMjIMyk6un4fjTsbBS70TxhkRA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\TEACHCHALLENGE.PEDIDO\\TEACHCHALLENGE.PEDIDO\\src\\INFRA\\INFRA.csproj",
+  "projectFilePath": "D:\\service-orders\\src\\INFRA\\INFRA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

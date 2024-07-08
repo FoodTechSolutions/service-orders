@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using APPLICATION.Order.GetOrder;
 using APPLICATION.Order.CreateOrder;
+using APPLICATION.Order.GetByIdAsync;
+using APPLICATION.Order.GetById;
+using APPLICATION.Order.GetOrdersGroupByStatus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +37,8 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 builder.Services.AddTransient<IRequestHandler<GetOrderQuery, IEnumerable<GetOrderResponse>>, GetOrderQueryHandler>();
 builder.Services.AddTransient<IRequestHandler<CreateOrderCommand, CreateOrderResponse>, CreateOrderCommandHandler>();
+builder.Services.AddTransient<IRequestHandler<GetOrderByIdQuery, GetOrderByIdResponse>, GetOrderByIdQueryHandler>();
+builder.Services.AddTransient<IRequestHandler<GetOrdersGroupByStatusQuery, GetOrdersGroupByStatusResponse>, GetOrdersGroupByStatusQueryHandler>();
 
 var app = builder.Build();
 
