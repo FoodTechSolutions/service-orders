@@ -23,6 +23,6 @@ public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, Cre
         await _orderRepository.AddAsync(order);
         _orderRepository.SaveChangesAsync();
 
-        return new CreateOrderResponse();
+        return CreateOrderResponse.ToResponse(order);
     }
 }

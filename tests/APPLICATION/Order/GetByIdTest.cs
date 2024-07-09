@@ -54,6 +54,13 @@ public class GetByIdTest : IClassFixture<DatabaseFixture>, IDisposable
         result.Id.Should().Be(orderId);
     }
 
+    [Fact]
+    public async Task Should_Return_Null_When_Not_Found_Order()
+    {
+        var result = await _mediator.Send(new GetOrderByIdQuery(Guid.NewGuid()));
+        result.Should().BeNull();
+    }
+
     public IEnumerable<DOMAIN.Order> GetOrders()
     {
         var ingredients = _orderProductIngredientBuilder

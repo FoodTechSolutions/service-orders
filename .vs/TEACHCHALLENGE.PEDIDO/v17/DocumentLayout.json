@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\service-orders\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\getbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\getbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\createorder\\createorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:28:20.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateOrderResponse.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:27:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:13:47.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GetByIdTest.cs",
               "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
               "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
               "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
               "RelativeToolTip": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T16:33:42.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CreateOrderTest.cs",
               "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
               "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
               "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
               "RelativeToolTip": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T16:33:19.095Z",
               "EditorCaption": ""
