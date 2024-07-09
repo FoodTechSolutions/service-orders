@@ -29,6 +29,12 @@ public class Order : AggregateRoot
         IsPaid = true;
     }
 
+    public Order SetIsPaid(bool isPaid)
+    {
+        IsPaid = isPaid;
+        return this;
+    }
+
     public Order AddProducts(IEnumerable<OrderProduct> products)
     {
         if (Products is null) Products = new List<OrderProduct>();

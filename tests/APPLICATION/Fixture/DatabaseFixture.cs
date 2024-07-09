@@ -1,14 +1,13 @@
-﻿using DoomedDatabases.Postgres;
-using INFRA.Context;
+﻿using INFRA.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace APPLICATION.Fixture;
 
-internal class DatabaseFixture : IDisposable
+public class DatabaseFixture : IDisposable
 {
     public OrderContext Context { get; private set; }
 
-public DatabaseFixture()
+    public DatabaseFixture()
     {
         var options = new DbContextOptionsBuilder<OrderContext>()
           .UseNpgsql("Host=localhost;Port=5432;Username=admin;Password=123;Database=postgres_order_teste")
@@ -18,9 +17,23 @@ public DatabaseFixture()
 
         Context.Database.Migrate();
     }
+
     public void Dispose()
     {
         Context.Database.EnsureDeleted();
         Context.Dispose();
     }
+
+    public static void CreateOrder(IEnumerable<DOMAIN.Order> orders, DatabaseFixture fixture)
+    {
+        fixture.Context.AddRange(orders);
+        fixture.Context.SaveChanges();
+    }
+    public static void RemoveOrders(DatabaseFixture fixture)
+    {
+        var orders = fixture.Context.Orders;
+        fixture.Context.RemoveRange(orders);
+        fixture.Context.SaveChanges();
+    }
+
 }
