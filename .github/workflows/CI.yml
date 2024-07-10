@@ -34,9 +34,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: build
-    defaults:
-      run:
-        working-directory: ./TechChallenger
+  
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
