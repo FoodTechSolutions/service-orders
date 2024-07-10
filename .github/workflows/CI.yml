@@ -10,11 +10,6 @@ jobs:
       docker:
         image: docker:19.03.12
         options: --privileged
-        
-    defaults:
-      run:
-        working-directory: ./TechChallenger
-        
     steps:
       - uses: actions/checkout@v4
 
