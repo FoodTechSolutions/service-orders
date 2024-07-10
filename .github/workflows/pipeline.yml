@@ -13,8 +13,3 @@ jobs:
      uses: ./.github/workflows/CI.yml
      secrets: inherit
 
-  CD:
-     needs: CI
-     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-     uses: ./.github/workflows/CD.yml
-     secrets: inherit
