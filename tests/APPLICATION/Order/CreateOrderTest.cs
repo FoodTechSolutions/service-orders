@@ -5,9 +5,7 @@ using APPLICATION.Order.CreateOrder;
 using DOMAIN.Entities;
 using DOMAIN.Enums;
 using FluentAssertions;
-using FluentAssertions.Common;
 using INFRA.Repositories;
-using INFRA.Repositories.Common;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
