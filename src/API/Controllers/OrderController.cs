@@ -1,6 +1,7 @@
 ﻿using API.Requets.Order;
 using APPLICATION.Order.GetByIdAsync;
 using APPLICATION.Order.GetOrdersGroupByStatus;
+using APPLICATION.Order.NextStepOrder;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,10 +12,12 @@ namespace API.Controllers;
 public class OrderController : ControllerBase
 {
     private readonly IMediator _mediator;
+    private readonly ILogger<OrderController> _logger;
 
-    public OrderController(IMediator mediator)
+    public OrderController(IMediator mediator, ILogger<OrderController> logger)
     {
         _mediator = mediator;
+        _logger = logger;
     }
 
     [HttpGet]
@@ -50,7 +53,7 @@ public class OrderController : ControllerBase
         }
         catch (Exception ex)
         {
-            //_logger.LogError($"Error creating order: {ex.Message}");
+            _logger.LogError($"Error creating order: {ex.Message}");
             return StatusCode(500, "Internal server error");
         }
     }
@@ -60,5 +63,21 @@ public class OrderController : ControllerBase
     {
         var result = await _mediator.Send(new GetOrdersGroupByStatusQuery());
         return Ok(result);
+    }
+
+    [HttpPost]
+    [Route(":nextstep/{orderId}")]
+    public IActionResult NextStep([FromQuery] Guid orderId)
+    {
+        try
+        {
+            var result = _mediator.Send(new NextStepOrderCommand(orderId));
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError($"Error creating order: {ex.Message}");
+            return StatusCode(500, "Internal server error");
+        }
     }
 }

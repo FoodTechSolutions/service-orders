@@ -24,4 +24,10 @@ public class Repository<T> : IRepository<T> where T : AggregateRoot
 
     public void SaveChangesAsync()
         => _context.SaveChanges();
+
+    public async Task<T> GetByIdAsync(Guid id)
+        => await _dbSet.Where(x => x.Id == id).FirstOrDefaultAsync();
+
+    public void Update(T entity)
+        => _dbSet.Update(entity);
 }

@@ -47,9 +47,10 @@ public class Order : AggregateRoot
         return new Order(customerId, discount, status);
     }
 
-    public void MoveToNextStep()
+    public Order MoveToNextStep()
     {
         Status = GetNextStatus(Status);
+        return this;
     }
 
     public bool IsLastStatus()

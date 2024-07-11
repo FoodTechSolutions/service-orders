@@ -20,7 +20,6 @@ builder.Services.AddSwaggerGen(options =>
     options.IncludeXmlComments(xmlPath);
 });
 
-
 // Add services to the container.
 
 builder.Services.AddControllers();
