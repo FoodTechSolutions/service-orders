@@ -9,9 +9,10 @@ public class DatabaseFixture : IDisposable
 
     public DatabaseFixture()
     {
+
         var options = new DbContextOptionsBuilder<OrderContext>()
-          .UseNpgsql("Host=localhost;Port=5432;Username=admin;Password=123;Database=postgres_order_teste")
-          .Options;
+      .UseNpgsql("Host=localhost;Port=5432;Username=admin;Password=123;Database=postgres_order_teste")
+      .Options;
 
         Context = new OrderContext(options);
 
@@ -29,11 +30,11 @@ public class DatabaseFixture : IDisposable
         fixture.Context.AddRange(orders);
         fixture.Context.SaveChanges();
     }
-    public static void RemoveOrders(DatabaseFixture fixture)
+    public static void RemoveOrders(OrderContext context)
     {
-        var orders = fixture.Context.Orders;
-        fixture.Context.RemoveRange(orders);
-        fixture.Context.SaveChanges();
+        var orders = context.Orders;
+        context.RemoveRange(orders);
+        context.SaveChanges();
     }
 
 }

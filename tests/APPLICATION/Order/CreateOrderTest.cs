@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace APPLICATION.Order;
 
+[Collection("DatabaseFixture")]
 public class CreateOrderTest : IClassFixture<DatabaseFixture>, IDisposable
 {
     private readonly OrderProductBuilder _orderProductBuilder;
@@ -58,7 +59,7 @@ public class CreateOrderTest : IClassFixture<DatabaseFixture>, IDisposable
 
     public void Dispose()
     {
-        DatabaseFixture.RemoveOrders(_databaseFixture);
+        DatabaseFixture.RemoveOrders(_databaseFixture.Context);
     }
 
     private CreateOrderCommand CreateCommand()

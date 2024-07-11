@@ -10,6 +10,7 @@ using FluentAssertions;
 
 namespace APPLICATION.Order;
 
+[Collection("DatabaseFixture")]
 public class GetByIdTest : IClassFixture<DatabaseFixture>, IDisposable
 {
     private readonly OrderBuilder _orderBuilder;
@@ -20,7 +21,7 @@ public class GetByIdTest : IClassFixture<DatabaseFixture>, IDisposable
     private readonly DatabaseFixture _databaseFixture;
     private readonly IMediator _mediator;
 
-    private readonly Guid orderId = new Guid("426efa9c-422b-4867-8fc8-22cc686195cd");
+    private readonly Guid orderId = Guid.NewGuid();
 
     public GetByIdTest(DatabaseFixture databaseFixture)
     {
@@ -43,7 +44,7 @@ public class GetByIdTest : IClassFixture<DatabaseFixture>, IDisposable
 
     public void Dispose()
     {
-        DatabaseFixture.RemoveOrders(_databaseFixture);
+        DatabaseFixture.RemoveOrders(_databaseFixture.Context);
     }
 
     [Fact]

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace APPLICATION.Order;
 
+[Collection("DatabaseFixture")]
 public class GetOrdersGroupByStatusTest : IClassFixture<DatabaseFixture>, IDisposable
 {
     private readonly OrderBuilder _orderBuilder;
@@ -45,7 +46,7 @@ public class GetOrdersGroupByStatusTest : IClassFixture<DatabaseFixture>, IDispo
 
     public void Dispose()
     {
-        DatabaseFixture.RemoveOrders(_databaseFixture);
+        DatabaseFixture.RemoveOrders(_databaseFixture.Context);
     }
 
     [Fact]

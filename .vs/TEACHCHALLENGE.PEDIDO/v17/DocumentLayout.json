@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\service-orders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\service-orders\\src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\fixture\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\fixture\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\getordersgroupbystatustest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\getordersgroupbystatustest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\getordersgroupbystatus\\getordersgroupbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\getordersgroupbystatus\\getordersgroupbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\getbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\getbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\service-orders\\tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\order\\createordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\service-orders\\src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\service-orders\\src\\application\\order\\getordersgroupbystatus\\getordersgroupbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\getordersgroupbystatus\\getordersgroupbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\service-orders\\src\\domain\\entities\\orderproductingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,55 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\service-orders\\src\\API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "src\\API\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\service-orders\\src\\API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "src\\API\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAaAAAA",
+              "Title": "DatabaseFixture.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\Fixture\\DatabaseFixture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T22:52:22.588Z",
+              "WhenOpened": "2024-07-10T23:59:06.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetOrdersGroupByStatusQuery.cs",
-              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
-              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Title": "CreateOrderTest.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T22:46:46.549Z"
+              "WhenOpened": "2024-07-09T16:33:19.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderProductIngredient.cs",
-              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "GetByIdTest.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T22:38:45.752Z"
+              "WhenOpened": "2024-07-09T16:33:42.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetOrdersGroupByStatusTest.cs",
-              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
-              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
-              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
-              "RelativeToolTip": "tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T22:37:05.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateOrderCommandHandler.cs",
               "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
@@ -119,7 +113,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "GetOrdersGroupByStatusTest.cs",
+              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
+              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\Order\\GetOrdersGroupByStatusTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T22:37:05.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\service-orders\\src\\API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "src\\API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T22:52:22.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CreateOrderResponse.cs",
               "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderResponse.cs",
@@ -131,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CreateOrderCommand.cs",
               "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
@@ -143,27 +163,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetByIdTest.cs",
-              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
-              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
-              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\GetByIdTest.cs",
-              "RelativeToolTip": "tests\\APPLICATION\\Order\\GetByIdTest.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAQwD8AAAADAAAA",
+              "DocumentIndex": 6,
+              "Title": "OrderProductIngredient.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "ToolTip": "D:\\service-orders\\src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProductIngredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:33:42.082Z"
+              "WhenOpened": "2024-07-09T22:38:45.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateOrderTest.cs",
-              "DocumentMoniker": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
-              "RelativeDocumentMoniker": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
-              "ToolTip": "D:\\service-orders\\tests\\APPLICATION\\Order\\CreateOrderTest.cs",
-              "RelativeToolTip": "tests\\APPLICATION\\Order\\CreateOrderTest.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "DocumentIndex": 5,
+              "Title": "GetOrdersGroupByStatusQuery.cs",
+              "DocumentMoniker": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
+              "ToolTip": "D:\\service-orders\\src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\GetOrdersGroupByStatus\\GetOrdersGroupByStatusQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:33:19.095Z"
+              "WhenOpened": "2024-07-09T22:46:46.549Z"
             }
           ]
         }
