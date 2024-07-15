@@ -1,4 +1,5 @@
 ﻿using DOMAIN.Base;
+using System.Xml.Linq;
 
 namespace DOMAIN.Entities;
 
@@ -10,6 +11,11 @@ public class OrderProduct : BaseEntity
 
     public static OrderProduct CreateProduct(Guid productId, int quantity)
     {
+        if(productId == Guid.Empty) throw new ArgumentException("Id cannot be empty guid!");
+
+        if (quantity < 0) throw new ArgumentException("Quantity must be greater than 0!");
+
+
         return new OrderProduct { ProductId = productId, Quantity = quantity };
     }
 
