@@ -1,0 +1,8 @@
+﻿D:\service-orders\src\INFRA\Context\OrderContext.cs
+D:\service-orders\src\INFRA\Migrations\20240707212558_initial.cs
+D:\service-orders\src\INFRA\Migrations\20240707212558_initial.Designer.cs
+D:\service-orders\src\INFRA\Migrations\OrderContextModelSnapshot.cs
+D:\service-orders\src\INFRA\Repositories\Common\IRepository.cs
+D:\service-orders\src\INFRA\Repositories\Common\Repository.cs
+D:\service-orders\src\INFRA\Repositories\IOrderRepository.cs
+D:\service-orders\src\INFRA\Repositories\OrderRepository.cs

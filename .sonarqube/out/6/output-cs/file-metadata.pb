@@ -1,0 +1,10 @@
+\
+QD:\service-orders\src\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.csutf-8I
+>D:\service-orders\src\API\obj\Debug\net8.0\API.AssemblyInfo.csutf-8d
+YD:\service-orders\src\API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8K
+@D:\service-orders\src\API\obj\Debug\net8.0\API.GlobalUsings.g.csutf-8C
+:D:\service-orders\src\API\Requets\Order\GetOrderRequest.csutf-8F
+=D:\service-orders\src\API\Requets\Order\CreateOrderRequest.csutf-8-
+$D:\service-orders\src\API\Program.csutf-8A
+8D:\service-orders\src\API\Controllers\OrderController.csutf-8I
+@D:\service-orders\src\API\Configuration\ConfigurationMediator.csutf-8

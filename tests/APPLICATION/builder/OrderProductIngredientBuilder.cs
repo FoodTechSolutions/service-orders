@@ -20,6 +20,6 @@ public class OrderProductIngredientBuilder
 
     public OrderProductIngredient Build()
     {
-        return OrderProductIngredient.CreateIngredient(_id, _quantity);
+        return OrderProductIngredient.CreateIngredient(_quantity);
     }
 }

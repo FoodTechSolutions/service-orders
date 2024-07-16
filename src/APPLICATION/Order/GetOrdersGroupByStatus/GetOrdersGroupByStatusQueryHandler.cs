@@ -3,7 +3,7 @@ using MediatR;
 
 namespace APPLICATION.Order.GetOrdersGroupByStatus;
 
-public class GetOrdersGroupByStatusQueryHandler : IRequestHandler<GetOrdersGroupByStatusQuery, GetOrdersGroupByStatusResponse>
+public class GetOrdersGroupByStatusQueryHandler : IRequestHandler<GetOrdersGroupByStatusQuery, GetOrdersGroupByStatusResponse?>
 {
     private readonly IOrderRepository _orderRepository;
     public GetOrdersGroupByStatusQueryHandler(IOrderRepository orderRepository)
@@ -11,7 +11,7 @@ public class GetOrdersGroupByStatusQueryHandler : IRequestHandler<GetOrdersGroup
         _orderRepository = orderRepository;
     }
 
-    public async Task<GetOrdersGroupByStatusResponse> Handle(GetOrdersGroupByStatusQuery request, CancellationToken cancellationToken)
+    public async Task<GetOrdersGroupByStatusResponse?> Handle(GetOrdersGroupByStatusQuery request, CancellationToken cancellationToken)
     {
         var received = await _orderRepository.GetAllAsync(x => x.Status == DOMAIN.Enums.OrderStatus.Received);
         var inProgress = await _orderRepository.GetAllAsync(x => x.Status == DOMAIN.Enums.OrderStatus.InProgress);

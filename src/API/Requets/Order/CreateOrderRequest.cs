@@ -27,7 +27,7 @@ public class CreateOrderRequest
     => products.Select(d => OrderProduct.CreateProduct(d.ProductId, d.Quantity).AddIngredients(ToIngredientsList(d.Ingredients)));
 
     private IEnumerable<OrderProductIngredient> ToIngredientsList(IEnumerable<IngredientRequest> ingredientRequests)
-        => ingredientRequests.Select(x => OrderProductIngredient.CreateIngredient(x.Id, x.Quantity));
+        => ingredientRequests.Select(x => OrderProductIngredient.CreateIngredient(x.Quantity));
 
     public CreateOrderCommand ToCommand() => new CreateOrderCommand(CustomerId, Discount, ToProductList(OrdersProducts));
 

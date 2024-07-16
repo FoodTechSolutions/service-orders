@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "API.Controllers.OrderController",
+    "Method": "NextStep",
+    "RelativePath": "api/v1/Order/:nextstep/{orderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.OrderController",
     "Method": "GetOrderById",
     "RelativePath": "api/v1/Order/{orderId}",
     "HttpMethod": "GET",

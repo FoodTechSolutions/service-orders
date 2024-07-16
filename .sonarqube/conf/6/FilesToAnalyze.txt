@@ -1,0 +1,14 @@
+﻿D:\service-orders\src\API\Configuration\ConfigurationMediator.cs
+D:\service-orders\src\API\Controllers\OrderController.cs
+D:\service-orders\src\API\Program.cs
+D:\service-orders\src\API\Requets\Order\CreateOrderRequest.cs
+D:\service-orders\src\API\Requets\Order\GetOrderRequest.cs
+D:\service-orders\src\API\obj\Debug\net8.0\API.GlobalUsings.g.cs
+D:\service-orders\src\API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+D:\service-orders\src\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+D:\service-orders\src\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\service-orders\src\API\appsettings.Development.json
+D:\service-orders\src\API\appsettings.json
+D:\service-orders\src\API\API.http
+D:\service-orders\src\API\Dockerfile
+D:\service-orders\src\API\Properties\launchSettings.json

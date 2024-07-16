@@ -1,0 +1,16 @@
+﻿D:\service-orders\src\APPLICATION\Order\CreateOrder\CreateOrderCommand.cs
+D:\service-orders\src\APPLICATION\Order\CreateOrder\CreateOrderCommandHandler.cs
+D:\service-orders\src\APPLICATION\Order\CreateOrder\CreateOrderResponse.cs
+D:\service-orders\src\APPLICATION\Order\GetOrderById\GetOrderByIdQuery.cs
+D:\service-orders\src\APPLICATION\Order\GetOrderById\GetOrderByIdQueryHandler.cs
+D:\service-orders\src\APPLICATION\Order\GetOrderById\GetOrderByIdResponse.cs
+D:\service-orders\src\APPLICATION\Order\GetOrderById\ProductsResponse.cs
+D:\service-orders\src\APPLICATION\Order\GetOrdersGroupByStatus\GetOrdersGroupByStatusQuery.cs
+D:\service-orders\src\APPLICATION\Order\GetOrdersGroupByStatus\GetOrdersGroupByStatusQueryHandler.cs
+D:\service-orders\src\APPLICATION\Order\GetOrdersGroupByStatus\GetOrdersGroupByStatusResponse.cs
+D:\service-orders\src\APPLICATION\Order\GetOrder\GetOrderQuery.cs
+D:\service-orders\src\APPLICATION\Order\GetOrder\GetOrderQueryHandler.cs
+D:\service-orders\src\APPLICATION\Order\GetOrder\GetOrderResponse.cs
+D:\service-orders\src\APPLICATION\Order\NextStepOrder\NextStepOrderCommand.cs
+D:\service-orders\src\APPLICATION\Order\NextStepOrder\NextStepOrderCommandHandler.cs
+D:\service-orders\src\APPLICATION\Order\NextStepOrder\NextStepOrderResponse.cs

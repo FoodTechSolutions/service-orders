@@ -1,0 +1,12 @@
+M
+BD:\service-orders\src\INFRA\obj\Debug\net8.0\INFRA.AssemblyInfo.csutf-8f
+[D:\service-orders\src\INFRA\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8O
+DD:\service-orders\src\INFRA\obj\Debug\net8.0\INFRA.GlobalUsings.g.csutf-8D
+;D:\service-orders\src\INFRA\Repositories\OrderRepository.csutf-8F
+=D:\service-orders\src\INFRA\Repositories\Common\Repository.csutf-8E
+<D:\service-orders\src\INFRA\Repositories\IOrderRepository.csutf-8G
+>D:\service-orders\src\INFRA\Repositories\Common\IRepository.csutf-8N
+CD:\service-orders\src\INFRA\Migrations\OrderContextModelSnapshot.csutf-8T
+ID:\service-orders\src\INFRA\Migrations\20240707212558_initial.Designer.csutf-8I
+@D:\service-orders\src\INFRA\Migrations\20240707212558_initial.csutf-8<
+3D:\service-orders\src\INFRA\Context\OrderContext.csutf-8

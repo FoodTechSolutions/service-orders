@@ -1,0 +1,8 @@
+﻿D:\service-orders\src\DOMAIN\Base\AggregateRoot.cs
+D:\service-orders\src\DOMAIN\Base\AssertionConcern.cs
+D:\service-orders\src\DOMAIN\Base\BaseEntity.cs
+D:\service-orders\src\DOMAIN\Base\ValueObject.cs
+D:\service-orders\src\DOMAIN\Entities\OrderProduct.cs
+D:\service-orders\src\DOMAIN\Entities\OrderProductIngredient.cs
+D:\service-orders\src\DOMAIN\Enums\OrderStatus.cs
+D:\service-orders\src\DOMAIN\Order.cs

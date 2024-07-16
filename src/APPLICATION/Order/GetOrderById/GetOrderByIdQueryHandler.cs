@@ -4,7 +4,7 @@ using MediatR;
 
 namespace APPLICATION.Order.GetById;
 
-public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, GetOrderByIdResponse>
+public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, GetOrderByIdResponse?>
 {
     private readonly IOrderRepository _orderRepository;
 
@@ -13,7 +13,7 @@ public class GetOrderByIdQueryHandler : IRequestHandler<GetOrderByIdQuery, GetOr
         _orderRepository = orderRepository;
     }
 
-    public async Task<GetOrderByIdResponse> Handle(GetOrderByIdQuery request, CancellationToken cancellationToken)
+    public async Task<GetOrderByIdResponse?> Handle(GetOrderByIdQuery request, CancellationToken cancellationToken)
     {
         var result = await _orderRepository.GetOrderByIdAsync(request.OrderId, x => GetOrderByIdResponse.ToResponse(x));
         return result;

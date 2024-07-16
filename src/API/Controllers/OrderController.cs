@@ -14,10 +14,9 @@ public class OrderController : ControllerBase
     private readonly IMediator _mediator;
     private readonly ILogger<OrderController> _logger;
 
-    public OrderController(IMediator mediator, ILogger<OrderController> logger)
+    public OrderController(IMediator mediator)
     {
         _mediator = mediator;
-        _logger = logger;
     }
 
     [HttpGet]
@@ -43,19 +42,11 @@ public class OrderController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateOrderAsync([FromBody] CreateOrderRequest order)
     {
-        try
-        {
-            var result = await _mediator.Send(order.ToCommand());
+        var result = await _mediator.Send(order.ToCommand());
 
-            if (result == null) return BadRequest("Error to create Order");
+        if (result == null) return BadRequest("Error to create Order");
 
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError($"Error creating order: {ex.Message}");
-            return StatusCode(500, "Internal server error");
-        }
+        return Ok(result);
     }
 
     [HttpGet("GetOrdersGroupByStatus")]
@@ -67,17 +58,11 @@ public class OrderController : ControllerBase
 
     [HttpPost]
     [Route(":nextstep/{orderId}")]
-    public IActionResult NextStep([FromQuery] Guid orderId)
+    public async Task<IActionResult> NextStep([FromRoute] Guid orderId)
     {
-        try
-        {
-            var result = _mediator.Send(new NextStepOrderCommand(orderId));
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError($"Error creating order: {ex.Message}");
-            return StatusCode(500, "Internal server error");
-        }
+
+        var result = await _mediator.Send(new NextStepOrderCommand(orderId));
+        return Ok(result);
+
     }
 }

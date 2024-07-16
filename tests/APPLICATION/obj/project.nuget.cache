@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "31vrh6QuOF8i42irqPPUPvw72JocZYybWJh2mnO6dfOBBbsS1++KMNHBB4hN4/71XT6H8F9OtuW6kLgJsrKzxA==",
+  "dgSpecHash": "Hcl560Dppdg3WpF1QibGPZwCQVdOKkKCSieTb0qmxW9iwVUYeeslwfSVf+/IioDjV1WAdIxNMH0gm27aiVM+ZA==",
   "success": true,
-  "projectFilePath": "D:\\service-orders\\tests\\APPLICATION\\APPLICATION-TEST.csproj",
+  "projectFilePath": "D:\\myprojectserviceorders\\tests\\APPLICATION\\APPLICATION-TEST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\mathe\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\doomeddatabases.postgres\\0.5.0\\doomeddatabases.postgres.0.5.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "INaIMWBsGTUCLCJBZsGJ1mmIL2PfAWXQRRzF/oyqUxf+AYwXLfItszAPIxWFlD+wzmpS1jv9NGf9P4AUAzlC1g==",
+  "dgSpecHash": "T26/SZ25TQRZ8zX8gMGbBtbsC5c2pmxxLZ0te94PQWevb9W78KoWKO/4+pFgXbwD0Umqp3vNu91HZ1ogvqcD2w==",
   "success": true,
-  "projectFilePath": "D:\\service-orders\\tests\\TEACHCHALLENGE.DOMAIN\\DOMAIN.csproj",
+  "projectFilePath": "D:\\myprojectserviceorders\\tests\\TEACHCHALLENGE.DOMAIN\\DOMAIN.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mathe\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

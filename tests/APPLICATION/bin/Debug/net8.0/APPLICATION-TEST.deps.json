@@ -16,7 +16,7 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "NSubstitute": "5.1.0",
-          "coverlet.collector": "6.0.0",
+          "coverlet.collector": "6.0.2",
           "xunit": "2.5.3",
           "xunit.runner.visualstudio": "2.5.3"
         },
@@ -35,7 +35,7 @@
           }
         }
       },
-      "coverlet.collector/6.0.0": {},
+      "coverlet.collector/6.0.2": {},
       "DoomedDatabases.Postgres/0.5.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "1.0.0",
@@ -1367,12 +1367,12 @@
       "path": "castle.core/5.1.1",
       "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
-    "coverlet.collector/6.0.0": {
+    "coverlet.collector/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
-      "path": "coverlet.collector/6.0.0",
-      "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+      "sha512": "sha512-bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
+      "path": "coverlet.collector/6.0.2",
+      "hashPath": "coverlet.collector.6.0.2.nupkg.sha512"
     },
     "DoomedDatabases.Postgres/0.5.0": {
       "type": "package",
