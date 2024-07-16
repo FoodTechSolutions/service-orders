@@ -8,6 +8,8 @@ public class OrderProductIngredient : BaseEntity
 
     public static OrderProductIngredient CreateIngredient(int quantity)
     {
+        if (quantity < 0) throw new ArgumentException("Quantity cannot be negative!");
+
         return new OrderProductIngredient
         {
             Quantity = quantity,
