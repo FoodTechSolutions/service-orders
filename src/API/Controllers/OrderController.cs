@@ -1,7 +1,11 @@
 ﻿using API.Requets.Order;
+using APPLICATION.BackgroundServices.Models;
+using APPLICATION.Configuration;
+using APPLICATION.Helpers;
 using APPLICATION.Order.GetByIdAsync;
 using APPLICATION.Order.GetOrdersGroupByStatus;
 using APPLICATION.Order.NextStepOrder;
+using APPLICATION.Service.Interface;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,10 +17,12 @@ public class OrderController : ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly ILogger<OrderController> _logger;
+    private readonly IRabbitMqService _rabbitMqService;
 
-    public OrderController(IMediator mediator)
+    public OrderController(IMediator mediator, IRabbitMqService rabbitMqService)
     {
         _mediator = mediator;
+        _rabbitMqService = rabbitMqService;
     }
 
     [HttpGet]
@@ -63,6 +69,22 @@ public class OrderController : ControllerBase
 
         var result = await _mediator.Send(new NextStepOrderCommand(orderId));
         return Ok(result);
+
+    }
+
+    [HttpPost]
+    [Route("PublishTest")]
+    public async Task<IActionResult> PublishTest([FromBody] RabbitMqExampleModel request)
+    {
+        var model = new RabbitMqPublishModel<RabbitMqExampleModel>()
+        {
+            ExchangeName = EventConstants.RABBITMQ_EXAMPLE_EXCHANGE,
+            RoutingKey = string.Empty,
+            Message = request
+        };
+
+        _rabbitMqService.Publish(model);
+        return Ok("");
 
     }
 }

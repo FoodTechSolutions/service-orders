@@ -1,4 +1,6 @@
 ﻿using API.Configuration;
+using APPLICATION.Service;
+using APPLICATION.Service.Interface;
 using INFRA.Context;
 using INFRA.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -35,7 +37,11 @@ public class Startup
 
         services.AddScoped<IOrderRepository, OrderRepository>();
 
+        services.AddScoped<IRabbitMqService, RabbitMqService>();
+
         services.AddInjectMediator();
+
+        services.AddHostedServices();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

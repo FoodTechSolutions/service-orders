@@ -2279,23 +2279,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathe\\.nuget\\packages\\": {},
+    "C:\\Users\\marlo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\myprojectserviceorders\\src\\INFRA\\INFRA.csproj",
+      "projectUniqueName": "D:\\FIAP\\service-orders\\src\\INFRA\\INFRA.csproj",
       "projectName": "INFRA",
-      "projectPath": "D:\\myprojectserviceorders\\src\\INFRA\\INFRA.csproj",
-      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "D:\\myprojectserviceorders\\src\\INFRA\\obj\\",
+      "projectPath": "D:\\FIAP\\service-orders\\src\\INFRA\\INFRA.csproj",
+      "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
+      "outputPath": "D:\\FIAP\\service-orders\\src\\INFRA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2304,15 +2304,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Projetos\\ShopDelivery\\ShopDelivery\\src\\SHOPDELIVERY.INFRASTRUCTURE": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\myprojectserviceorders\\src\\DOMAIN\\DOMAIN.csproj": {
-              "projectPath": "D:\\myprojectserviceorders\\src\\DOMAIN\\DOMAIN.csproj"
+            "D:\\FIAP\\service-orders\\src\\DOMAIN\\DOMAIN.csproj": {
+              "projectPath": "D:\\FIAP\\service-orders\\src\\DOMAIN\\DOMAIN.csproj"
             }
           }
         }
@@ -2363,7 +2363,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

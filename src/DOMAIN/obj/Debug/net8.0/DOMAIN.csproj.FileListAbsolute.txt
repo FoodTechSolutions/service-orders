@@ -34,3 +34,15 @@ D:\myprojectserviceorders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.dll
 D:\myprojectserviceorders\src\DOMAIN\obj\Debug\net8.0\refint\DOMAIN.dll
 D:\myprojectserviceorders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.pdb
 D:\myprojectserviceorders\src\DOMAIN\obj\Debug\net8.0\ref\DOMAIN.dll
+D:\FIAP\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.deps.json
+D:\FIAP\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.dll
+D:\FIAP\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.pdb
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.AssemblyInfoInputs.cache
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.AssemblyInfo.cs
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.csproj.CoreCompileInputs.cache
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.sourcelink.json
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.dll
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\refint\DOMAIN.dll
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.pdb
+D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\ref\DOMAIN.dll
