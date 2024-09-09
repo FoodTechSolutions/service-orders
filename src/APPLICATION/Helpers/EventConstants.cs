@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace APPLICATION.Helpers;
 
-namespace APPLICATION.Helpers
+public static class EventConstants
 {
-    public static class EventConstants
-    {
-        public const string RABBITMQ_EXAMPLE_EXCHANGE = "RABBITMQ_EXAMPLE_EXCHANGE";
-        public const string RABBITMQ_EXAMPLE_QUEUE = "RABBITMQ_EXAMPLE_QUEUE";
-    }
+    public const string START_PRODUCTION_EXCHANGE = "START_PRODUCTION_EXCHANGE";
+    public const string START_PRODUCTION_QUEUE = "PRODUCTION_START_PRODUCTION_QUEUE";
+
+    public const string CREATE_PRODUCTION_EXCHANGE = "CREATE_PRODUCTION_EXCHANGE";
+    public const string CREATE_PRODUCTION_QUEUE = "CREATE_PRODUCTION_QUEUE";
+
+    public const string CANCEL_PRODUCTION_EXCHANGE = "CANCEL_PRODUCTION_EXCHANGE";
+    public const string CANCEL_PRODUCTION_QUEUE = "CANCEL_PRODUCTION_QUEUE";
+
+    public const string FINISH_PRODUCTION_EXCHANGE = "FINISH_PRODUCTION_EXCHANGE";
+    public const string FINISH_PRODUCTION_QUEUE = "PRODUCTION_FINISH_PRODUCTION_QUEUE";
 }

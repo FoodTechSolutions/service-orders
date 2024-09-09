@@ -46,3 +46,15 @@ D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.dll
 D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\refint\DOMAIN.dll
 D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.pdb
 D:\FIAP\service-orders\src\DOMAIN\obj\Debug\net8.0\ref\DOMAIN.dll
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.deps.json
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.dll
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\bin\Debug\net8.0\DOMAIN.pdb
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.AssemblyInfoInputs.cache
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.AssemblyInfo.cs
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.csproj.CoreCompileInputs.cache
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.sourcelink.json
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.dll
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\refint\DOMAIN.dll
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\DOMAIN.pdb
+D:\tech-challenger-fiap\service-orders\src\DOMAIN\obj\Debug\net8.0\ref\DOMAIN.dll

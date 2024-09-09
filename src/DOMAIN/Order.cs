@@ -29,6 +29,12 @@ public class Order : AggregateRoot
         IsPaid = true;
     }
 
+    public Order SetStatus(OrderStatus status)
+    {
+        Status = status;
+        return this;
+    }
+
     public Order SetIsPaid(bool isPaid)
     {
         IsPaid = isPaid;

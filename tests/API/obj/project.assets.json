@@ -8381,23 +8381,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marlo\\.nuget\\packages\\": {},
+    "C:\\Users\\mathe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FIAP\\service-orders\\tests\\API\\APITEST.csproj",
+      "projectUniqueName": "D:\\tech-challenger-fiap\\service-orders\\tests\\API\\APITEST.csproj",
       "projectName": "APITEST",
-      "projectPath": "D:\\FIAP\\service-orders\\tests\\API\\APITEST.csproj",
-      "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-      "outputPath": "D:\\FIAP\\service-orders\\tests\\API\\obj\\",
+      "projectPath": "D:\\tech-challenger-fiap\\service-orders\\tests\\API\\APITEST.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "D:\\tech-challenger-fiap\\service-orders\\tests\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8406,15 +8406,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Projetos\\ShopDelivery\\ShopDelivery\\src\\SHOPDELIVERY.INFRASTRUCTURE": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FIAP\\service-orders\\src\\API\\API.csproj": {
-              "projectPath": "D:\\FIAP\\service-orders\\src\\API\\API.csproj"
+            "D:\\tech-challenger-fiap\\service-orders\\src\\API\\API.csproj": {
+              "projectPath": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\API.csproj"
             }
           }
         }
@@ -8485,7 +8485,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -8494,7 +8494,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.3.0 was resolved.",
+      "message": "Versão detectada do pacote fora da restrição de dependência: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requer MediatR (>= 11.0.0 && < 12.0.0), mas a versão MediatR 12.3.0 foi resolvida.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

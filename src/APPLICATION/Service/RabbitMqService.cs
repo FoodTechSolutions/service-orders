@@ -6,6 +6,7 @@ using System.Text.Json.Serialization;
 using System.Text.Json;
 using System.Text;
 using APPLICATION.Configuration;
+using RabbitMQ.Client.Events;
 
 namespace APPLICATION.Service;
 
@@ -41,6 +42,10 @@ public class RabbitMqService(ILogger<RabbitMqService> logger, IConfiguration con
             logger.LogError(ex.Message, ex);
         }
     }
+
+    public EventingBasicConsumer GetConsumer()
+        => new EventingBasicConsumer(_channel);
+
 
     public void Publish<T>(RabbitMqPublishModel<T> rabbitMqConfig)
     {

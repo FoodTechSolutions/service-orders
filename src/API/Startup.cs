@@ -1,7 +1,9 @@
 ﻿using API.Configuration;
 using APPLICATION.Service;
 using APPLICATION.Service.Interface;
+using DOMAIN.Repository;
 using INFRA.Context;
+using INFRA.Messaging;
 using INFRA.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
@@ -38,6 +40,7 @@ public class Startup
         services.AddScoped<IOrderRepository, OrderRepository>();
 
         services.AddScoped<IRabbitMqService, RabbitMqService>();
+        services.AddScoped<ICreateOrderQueueAdapterOUT, CreateOrderQueueAdapterOUT>();
 
         services.AddInjectMediator();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yF+zFYBhYrQ=",
+  "dgSpecHash": "u6fZw/pK+etdZeXvnXqsL8xGNeU8/HgH3QBYw3LzXZ5hE0iFK61/T3sb1xF7bFRBlPZmZAkJ1/QBQUKvQ7wCMA==",
   "success": true,
-  "projectFilePath": "D:\\FIAP\\service-orders\\src\\DOMAIN\\DOMAIN.csproj",
+  "projectFilePath": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\DOMAIN.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

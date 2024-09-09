@@ -15,7 +15,14 @@ public class NextStepOrderCommandHandler : IRequestHandler<NextStepOrderCommand,
     public async Task<NextStepOrderResponse> Handle(NextStepOrderCommand request, CancellationToken cancellationToken)
     {
         var order = await _orderRepository.GetByIdAsync(request.OrderId);
-        order.MoveToNextStep();
+        if(request.Status.HasValue)
+        {
+            order.SetStatus(request.Status.Value);
+        }
+        else
+        {
+            order.MoveToNextStep();
+        }
         _orderRepository.Update(order);
         _orderRepository.SaveChangesAsync();
 
