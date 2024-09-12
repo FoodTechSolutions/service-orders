@@ -78,7 +78,7 @@ public class OrderController : ControllerBase
     {
         var model = new RabbitMqPublishModel<RabbitMqExampleModel>()
         {
-            ExchangeName = EventConstants.CREATE_PRODUCTION_QUEUE,
+            ExchangeName = EventConstants.CREATE_INVOICE_EXCHANGE,
             RoutingKey = string.Empty,
             Message = request
         };

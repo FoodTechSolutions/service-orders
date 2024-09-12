@@ -1,9 +1,6 @@
 ﻿using APPLICATION.Helpers;
 using APPLICATION.Order.NextStepOrder;
-using APPLICATION.Service.Interface;
-using DOMAIN.Repository;
 using INFRA.Messaging;
-using INFRA.Repositories;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,9 +11,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 
-namespace APPLICATION.Messaging;
-
-public class OrderInProgressQueueAdpterIN : BackgroundService
+public class PaidQueueAdpterIN : BackgroundService
 {
     private IConnection _connection;
     private IModel _channel;
@@ -27,10 +22,9 @@ public class OrderInProgressQueueAdpterIN : BackgroundService
     private string RABBIT_USERNAME;
     private string RABBIT_PASSWORD;
 
-    public OrderInProgressQueueAdpterIN(IServiceProvider serviceProvider,
+    public PaidQueueAdpterIN(IServiceProvider serviceProvider,
         ILogger<CreateOrderQueueAdapterOUT> logger,
-        IConfiguration configuration
-        )
+        IConfiguration configuration)
     {
         _logger = logger;
         _serviceProvider = serviceProvider;
@@ -39,9 +33,7 @@ public class OrderInProgressQueueAdpterIN : BackgroundService
         RABBIT_USERNAME = configuration.GetSection("RabbitMqSettings")["USERNAME"] ?? string.Empty;
         RABBIT_PASSWORD = configuration.GetSection("RabbitMqSettings")["PASSWORD"] ?? string.Empty;
         CreateConnection();
-
     }
-
 
     private void CreateConnection()
     {
@@ -58,15 +50,15 @@ public class OrderInProgressQueueAdpterIN : BackgroundService
             _channel = _connection.CreateModel();
 
             _channel.ExchangeDeclare(
-                exchange: EventConstants.START_PRODUCTION_EXCHANGE,
+                exchange: EventConstants.PAID_EXCHANGE,
                 type: ExchangeType.Direct);
 
             _channel.QueueDeclare(
-                queue: EventConstants.START_PRODUCTION_QUEUE);
+                queue: EventConstants.PAID_QUEUE);
 
             _channel.QueueBind(
-                exchange: EventConstants.START_PRODUCTION_EXCHANGE,
-                queue: EventConstants.START_PRODUCTION_QUEUE,
+                exchange: EventConstants.PAID_EXCHANGE,
+                queue: EventConstants.PAID_QUEUE,
             routingKey: string.Empty);
         }
         catch (Exception ex)
@@ -86,7 +78,7 @@ public class OrderInProgressQueueAdpterIN : BackgroundService
         //_channel.ModelShutdown += async (s, e) => await Channel_Shutdown(s, e);
         consumer.Received += async (s, e) => await Consumer(s, e);
         _channel.BasicQos(0, 20, false);
-        _channel.BasicConsume(EventConstants.START_PRODUCTION_QUEUE, false, consumer);
+        _channel.BasicConsume(EventConstants.PAID_QUEUE, false, consumer);
     }
 
     public async Task Consumer(object sender, BasicDeliverEventArgs e)
@@ -96,16 +88,17 @@ public class OrderInProgressQueueAdpterIN : BackgroundService
             var body = e.Body.ToArray();
             var message = Encoding.UTF8.GetString(body);
 
-            var order = JsonConvert.DeserializeObject<CancelProductionModel>(message);
+            var order = JsonConvert.DeserializeObject<Paid>(message);
             var mediator = scope.ServiceProvider.GetRequiredService<IMediator>();
 
             var command = new NextStepOrderCommand(order.OrderId, DOMAIN.Enums.OrderStatus.InProgress);
             await mediator.Send(command);
+
         }
     }
-    public class CancelProductionModel
+
+    public class Paid
     {
         public Guid OrderId { get; set; }
     }
-
 }

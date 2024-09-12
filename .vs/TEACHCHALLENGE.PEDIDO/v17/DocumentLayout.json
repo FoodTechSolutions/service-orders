@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\tech-challenger-fiap\\service-orders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\messaging\\orderinprogressqueueadpterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\orderinprogressqueueadpterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\nextsteporder\\nextstepordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\nextsteporder\\nextstepordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,32 +11,40 @@
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\cancelorderqueueadapterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\messaging\\createorderqueueadapterout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\createorderqueueadapterout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\nextsteporder\\nextstepordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\nextsteporder\\nextstepordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\helpers\\eventconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\helpers\\eventconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\backgroundservices\\rabbitmqexamplehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\backgroundservices\\rabbitmqexamplehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\configuration\\configurationhostedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\configuration\\configurationhostedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\messaging\\finishorderqueueadapterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\finishorderqueueadapterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\messaging\\createorderqueueadapterout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\createorderqueueadapterout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\messaging\\paidqueueadpterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\messaging\\paidqueueadpterin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\domain\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|d:\\tech-challenger-fiap\\service-orders\\tests\\application\\builder\\orderproductbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CE408-F176-42C7-915E-B29F9301710D}|tests\\APPLICATION\\APPLICATION-TEST.csproj|solutionrelative:tests\\application\\builder\\orderproductbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\domain\\repository\\icreateorderqueueadapterout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,36 +55,24 @@
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\nextsteporder\\nextstepordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\nextsteporder\\nextstepordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\requets\\order\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1A854E-8EE0-4AA0-90CA-D4B7898CB62A}|src\\DOMAIN\\DOMAIN.csproj|solutionrelative:src\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\configuration\\configurationhostedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\configuration\\configurationhostedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\service\\rabbitmqexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\service\\rabbitmqexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\service\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\service\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\nextsteporder\\nextsteporderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\nextsteporder\\nextsteporderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\service\\interface\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,6 +81,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\configuration\\rabbitmqpublishmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\configuration\\rabbitmqpublishmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\backgroundservices\\rabbitmqexamplehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\backgroundservices\\rabbitmqexamplehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D767A877-0649-4B57-A29B-23A1981A294C}|src\\API\\API.csproj|solutionrelative:src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\service\\rabbitmqexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\service\\rabbitmqexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\order\\nextsteporder\\nextsteporderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|solutionrelative:src\\application\\order\\nextsteporder\\nextsteporderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57FF9028-D449-47EF-B1FB-2A6D9F9CF1D1}|src\\APPLICATION\\APPLICATION.csproj|d:\\tech-challenger-fiap\\service-orders\\src\\application\\backgroundservices\\models\\rabbitmqexamplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,131 +142,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NextStepOrderCommandHandler.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:43:08.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateOrderQueueAdapterOUT.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAYwFAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:57:17.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NextStepOrderCommand.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:43:15.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CancelOrderQueueAdapterIN.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAA6wGsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:17:08.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderInProgressQueueAdpterIN.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\OrderInProgressQueueAdpterIN.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\OrderInProgressQueueAdpterIN.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\OrderInProgressQueueAdpterIN.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Messaging\\OrderInProgressQueueAdpterIN.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAqwGUAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T22:07:37.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "EventConstants.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Helpers\\EventConstants.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Helpers\\EventConstants.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Helpers\\EventConstants.cs",
               "RelativeToolTip": "src\\APPLICATION\\Helpers\\EventConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T18:05:55.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "src\\DOMAIN\\Enums\\OrderStatus.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "src\\DOMAIN\\Enums\\OrderStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderQueueAdapterOUT.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Messaging\\CreateOrderQueueAdapterOUT.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA2wC8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:50:35.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RabbitMqExampleHandler.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
-              "RelativeToolTip": "src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:07:17.977Z",
+              "WhenOpened": "2024-09-08T17:57:17.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\API\\appsettings.json",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\appsettings.json",
-              "RelativeToolTip": "src\\API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-08T17:27:18.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Order.cs",
               "RelativeDocumentMoniker": "src\\DOMAIN\\Order.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Order.cs",
               "RelativeToolTip": "src\\DOMAIN\\Order.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBYAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T18:11:47.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CancelOrderQueueAdapterIN.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Messaging\\CancelOrderQueueAdapterIN.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAUwFcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:17:08.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigurationHostedServices.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Configuration\\ConfigurationHostedServices.cs",
+              "RelativeDocumentMoniker": "src\\API\\Configuration\\ConfigurationHostedServices.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Configuration\\ConfigurationHostedServices.cs",
+              "RelativeToolTip": "src\\API\\Configuration\\ConfigurationHostedServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAMwA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T20:53:56.682Z",
               "EditorCaption": ""
             },
             {
@@ -261,35 +212,87 @@
               "RelativeDocumentMoniker": "src\\DOMAIN\\Repository\\ICreateOrderQueueAdapterOUT.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Repository\\ICreateOrderQueueAdapterOUT.cs",
               "RelativeToolTip": "src\\DOMAIN\\Repository\\ICreateOrderQueueAdapterOUT.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:36:04.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateOrderCommand.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "NextStepOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommandHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:32:18.67Z",
+              "WhenOpened": "2024-09-08T21:43:08.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaidQueueAdpterIN.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\PaidQueueAdpterIN.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\PaidQueueAdpterIN.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\PaidQueueAdpterIN.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Messaging\\PaidQueueAdpterIN.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAUwEwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:54:41.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FInishOrderQueueAdapterIN.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\FInishOrderQueueAdapterIN.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Messaging\\FInishOrderQueueAdapterIN.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Messaging\\FInishOrderQueueAdapterIN.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Messaging\\FInishOrderQueueAdapterIN.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGMAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:36:13.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Entities\\OrderProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:21:30.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderProductBuilder.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\tests\\APPLICATION\\builder\\OrderProductBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\APPLICATION\\builder\\OrderProductBuilder.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\tests\\APPLICATION\\builder\\OrderProductBuilder.cs",
+              "RelativeToolTip": "tests\\APPLICATION\\builder\\OrderProductBuilder.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAjwBYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:21:33.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "src\\API\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "src\\API\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAswDsAAAAFAAAA",
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Requets\\Order\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "src\\API\\Requets\\Order\\CreateOrderRequest.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Requets\\Order\\CreateOrderRequest.cs",
+              "RelativeToolTip": "src\\API\\Requets\\Order\\CreateOrderRequest.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wA8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:32:03.432Z",
+              "WhenOpened": "2024-09-09T22:02:04.858Z",
               "EditorCaption": ""
             },
             {
@@ -300,7 +303,7 @@
               "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
               "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommandHandler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBwAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T18:32:20.375Z",
               "EditorCaption": ""
@@ -308,53 +311,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "CreateOrderRequest.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Requets\\Order\\CreateOrderRequest.cs",
-              "RelativeDocumentMoniker": "src\\API\\Requets\\Order\\CreateOrderRequest.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Requets\\Order\\CreateOrderRequest.cs",
-              "RelativeToolTip": "src\\API\\Requets\\Order\\CreateOrderRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "src\\DOMAIN\\Enums\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T22:02:04.858Z",
+              "WhenOpened": "2024-09-08T21:50:35.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RabbitMqService.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqService.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\RabbitMqService.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqService.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Service\\RabbitMqService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "NextStepOrderCommand.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:50:21.553Z",
+              "WhenOpened": "2024-09-08T21:43:15.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ConfigurationHostedServices.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Configuration\\ConfigurationHostedServices.cs",
-              "RelativeDocumentMoniker": "src\\API\\Configuration\\ConfigurationHostedServices.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Configuration\\ConfigurationHostedServices.cs",
-              "RelativeToolTip": "src\\API\\Configuration\\ConfigurationHostedServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABSAAAA",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "src\\API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAArwFAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T20:53:56.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RabbitMqExampleService.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:27:38.726Z",
+              "WhenOpened": "2024-09-08T18:32:03.432Z",
               "EditorCaption": ""
             },
             {
@@ -365,26 +355,125 @@
               "RelativeDocumentMoniker": "src\\API\\Startup.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Startup.cs",
               "RelativeToolTip": "src\\API\\Startup.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAqwCUAAAAMAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAASwCkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:54:08.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RabbitMqService.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqService.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\RabbitMqService.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqService.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Service\\RabbitMqService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAywD8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:50:21.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRabbitMqService.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T17:55:40.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "RabbitMqPublishModel.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:00:59.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T01:13:42.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RabbitMqExampleHandler.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
+              "RelativeToolTip": "src\\APPLICATION\\BackgroundServices\\RabbitMqExampleHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:07:17.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Program.cs",
               "RelativeDocumentMoniker": "src\\API\\Program.cs",
               "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\Program.cs",
               "RelativeToolTip": "src\\API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T18:26:36.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\API\\appsettings.json",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\API\\appsettings.json",
+              "RelativeToolTip": "src\\API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T17:27:18.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Order\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:32:18.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RabbitMqExampleService.cs",
+              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
+              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
+              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
+              "RelativeToolTip": "src\\APPLICATION\\Service\\RabbitMqExampleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:27:38.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "NextStepOrderResponse.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderResponse.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Order\\NextStepOrder\\NextStepOrderResponse.cs",
@@ -396,31 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IRabbitMqService.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Service\\Interface\\IRabbitMqService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:55:40.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RabbitMqPublishModel.cs",
-              "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
-              "RelativeDocumentMoniker": "src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
-              "ToolTip": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
-              "RelativeToolTip": "src\\APPLICATION\\Configuration\\RabbitMqPublishModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:00:59.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "RabbitMqExampleModel.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\BackgroundServices\\Models\\RabbitMqExampleModel.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\BackgroundServices\\Models\\RabbitMqExampleModel.cs",
@@ -432,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IRabbitMqExampleService.cs",
               "DocumentMoniker": "D:\\tech-challenger-fiap\\service-orders\\src\\APPLICATION\\Service\\Interface\\IRabbitMqExampleService.cs",
               "RelativeDocumentMoniker": "src\\APPLICATION\\Service\\Interface\\IRabbitMqExampleService.cs",
@@ -444,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",

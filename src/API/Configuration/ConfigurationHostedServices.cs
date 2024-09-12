@@ -12,7 +12,8 @@ public static class ConfigurationHostedServices
     {
         //services.AddHostedService<RabbitMqExampleHandler>();
         services.AddHostedService<CancelOrderQueueAdapterIN>();
-        services.AddHostedService<OrderInProgressQueueAdpterIN>();
+        services.AddHostedService<PaidQueueAdpterIN>();
+        services.AddHostedService<FinishOrderQueueAdapterIN>();
 
         return services;
     }

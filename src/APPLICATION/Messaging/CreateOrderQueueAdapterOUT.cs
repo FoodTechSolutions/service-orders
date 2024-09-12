@@ -36,54 +36,73 @@ public class CreateOrderQueueAdapterOUT : ICreateOrderQueueAdapterOUT
         _rabbitMqService = rabbitMqService;
     }
 
-    public void Publish(DOMAIN.Order order)
+    public void PublishStartProduction(DOMAIN.Order order)
     {
-        RabbitMqPublishModel<CreateOrderModel> menssage = new RabbitMqPublishModel<CreateOrderModel>
+        RabbitMqPublishModel<StartProduction> menssage = new RabbitMqPublishModel<StartProduction>
         {
             ExchangeName = EventConstants.CREATE_PRODUCTION_EXCHANGE,
             RoutingKey = string.Empty,
-            Message = CreateOrderModel.toModel(order)
+            Message = StartProduction.ToModel(order)
         };
 
-        _rabbitMqService.Publish<CreateOrderModel>(menssage);
+        _rabbitMqService.Publish<StartProduction>(menssage);
     }
 
-    public class CreateOrderModel
+    public void Publish(DOMAIN.Order order)
+    {
+        RabbitMqPublishModel<CreateInvoiceModel> menssage = new RabbitMqPublishModel<CreateInvoiceModel>
+        {
+            ExchangeName = EventConstants.CREATE_INVOICE_EXCHANGE,
+            RoutingKey = string.Empty,
+            Message = CreateInvoiceModel.ToModel(order)
+        };
+
+        _rabbitMqService.Publish<CreateInvoiceModel>(menssage);
+    }
+
+    public class StartProduction
     {
         public string Order { get; set; }
         public string Customer { get; set; }
         public List<Item> Items { get; set; }
 
+
         public class Item
         {
             public string Name { get; set; }
-            public List<Ingrediente> Ingredients { get; set; }
+            public List<OrderProductIngredient> Ingredients { get; set; }
 
-            public static List<Item> toModel(List<OrderProduct> orderProducts)
-                => orderProducts.Select(ve => new Item
+            public static List<Item> ToItem(List<OrderProduct> product)
+                => product.Select(x => new Item
                 {
-                    Name = "teste",
-                    Ingredients = ve.Ingredients.Select(vc => new Ingrediente
-                    {
-                        Name = "teaa",
-                        Price = 100
-                    }).ToList()
+                    Ingredients = x.Ingredients.ToList(),
+                    Name = x.ProductId.ToString()
                 }).ToList();
         }
 
-        public class Ingrediente
-        {
-            public string Name { get; set; }
-            public double Price { get; set; }
-        }
 
-        public static CreateOrderModel toModel(DOMAIN.Order order)
-         => new CreateOrderModel
-         {
-             Order = order.Id.ToString(),
-             Customer = order.CustomerId.ToString(),
-             Items = Item.toModel(order.Products)
+        public static StartProduction ToModel(DOMAIN.Order order)
+          => new StartProduction
+          {
+              Customer = order.CustomerId.ToString(),
+              Order = order.Id.ToString(),
+          };
+    }
 
-         };
+
+    public record CreateInvoiceModel
+    {
+        public Guid OrderId { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime DueDate { get; set; }
+
+
+        public static CreateInvoiceModel ToModel(Order order)
+            => new CreateInvoiceModel
+            {
+                Amount = 150,
+                DueDate = DateTime.Now.AddDays(1),
+                OrderId = order.Id
+            };
     }
 }
